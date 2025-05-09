@@ -57,7 +57,7 @@ int main() {
         }
 
         printf("\nDesea realizar alguna otra operacion?\n");
-        printf("1.- Sí\n");
+        printf("1.- Si\n");
         printf("2.- No\n");
         scanf("%d", &bucle);
     } while (bucle != 2);
