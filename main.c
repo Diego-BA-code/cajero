@@ -6,12 +6,14 @@ int main() {
     int operaciones;
     int bucle = 1;
 
-    struct cliente banco[3] = {
-        {1, 15000, "Carlos Ramirez", 1234},
-        {2, 10000, "Karla Gutierrez", 1701},
-        {3, 20200, "Pepe Pollo", 7766}
+ 
+    struct cliente banco[100] = {
+        {1, 15000, "Carlos", "Ramirez", 1234},
+        {2, 10000, "Karla","Gutierrez", 1701},
+        {3, 20200, "Pepe","Pollo", 7766}
     };
 
+    int n_usuarios = sizeof(banco)/sizeof(banco[0]);
     printf("\n========== BIENVENIDO A LA PRACTICAJA CUCEI ==========\n");
 
     printf("\nPor favor seleccione la cuenta en la que quiere realizar una operación:\n");
