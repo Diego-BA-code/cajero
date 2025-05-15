@@ -8,6 +8,7 @@ struct cliente {
     int Ncliente;
     float saldo;
     char nombre[40];
+    char apellido[40];
     int nip;
 };
 
@@ -90,6 +91,27 @@ int autenticarNip(struct cliente clientes[], int cuentaSeleccionada) {
     return 0;
 }
 
+void agregar_usuario(struct cliente *clientes, int *n)
+{
+    printf("Ingrese el numero de cliente");
+    scanf("%d", &clientes[*n].Ncliente);
+    printf("Ingrese el nombre del cliente");
+    scanf("%s", clientes[*n].nombre);
+    printf("Ingrese el apellido del cliente");
+    scanf("%s", clientes[*n].apellido);
+    printf("Ingrese el nip del cliente");
+    scanf("%d", &clientes[*n].nip);
+    (*n)++;
+}
+
+void imprimir_usuarios(struct cliente clientes[], int n_usuarios){
+    for(int i = 0; i < n_usuarios; i++){
+        printf("Numero de cliente %d\n", clientes[i].Ncliente);
+        printf("Nombre del cliente %s\n", clientes[i].nombre);
+        printf("Apellido del cliente %s\n", clientes[i].apellido);
+        printf("Nip de cliente %d\n", clientes[i].nip);
+        printf("Saldo del cliente %f\n\n", clientes[i].saldo);
+    }
+}
+
 #endif
-
-
