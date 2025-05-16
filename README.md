@@ -6,8 +6,17 @@
 
 ## Guia de instalación
 1. Crear directorio
-2. Abrir git e ir al directorio
-3. Ejecutar git clone https://github.com/Diego-BA-code/cajero.git
+
+![image](https://github.com/user-attachments/assets/04e8f425-8765-475f-8fb4-079ad72424de)
+
+3. Abrir git e ir al directorio
+
+![image](https://github.com/user-attachments/assets/ed6fbb92-b708-4ba7-bfc4-0408f10d0eb7)
+
+5. Ejecutar git clone https://github.com/Diego-BA-code/cajero.git
+
+![image](https://github.com/user-attachments/assets/f10e74cd-0c03-40e1-b847-8df5cbe87898)
+
 
 ## Guia de usuario
 ## Al abrir el programa se desplegará un menú de 6 opciones son las siguientes:
