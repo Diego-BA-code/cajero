@@ -10,6 +10,37 @@
 3. Ejecutar git clone https://github.com/Diego-BA-code/cajero.git
 
 ## Guia de usuario
+## Al abrir el programa se desplegará un menú de 6 opciones son las siguientes:
+
+## Opción 1 "Iniciar Sesion" 
+Si presiona el número 1, se abrira la opción número 1, lo primero que le solicitara es ingresar su numero de cuenta, una vez ingresado el numero de cuenta te pedira ingresar el NIP, debes ingresar el nip de cuenta ya que si te equivocas 3 veces se bloqueara tu cuenta y te regresa al menú principal, si ingresas el nip correcto, se te deplegara el menú cliente, en el menu de cliente tendras 4 opciones, que son las siguietes:
+
+### 1. Consultar saldo: 
+Al presional el 1 se abrira la opcion de consultar saldo, dentro de esta opcion te dara a escoger otras 2 opciones, la primera sera ver tu saldo actual, esta se abrira cuando presiones el numero 1 y unicamente te indicara el saldo de tu cuenta; la segunda sera ver el historial de movimientos, esta opción se abrira al presionar el número 2 y al hacerlo te dara los ultimos movimientos guardados en tu cuenta (tanto retiros como depositos).
+
+### 2. Realizar deposito: 
+Al presionar el 2 se abrira la opcion de realizar deposito, dentro de esta opcion te pedira ingresar el numero de cuenta al que deseas hacer el deposito, luego te pedira que ingreses la cantidad que quieres depositar, una vez des enter, te dira que tu deposito se realizo con exito.
+
+### 3. Realizar Retiro: 
+Al presionar el número 3 se abrira la opcion de realizar retiro, dentro de esta opcion te pedira que ingreses la cantidad que deseas retirar, ojo tiene que ser una cantidad menor o igual a la que tines en la cuenta elegida, ya que si ingresas una cantidad mayor, te dira que no tienes suficiente saldo y te regresara al menu principal, en caso de que ingreses una cantidad correcta te pedira que confirmes si quieres realizar el retiro, si presionas 1 se realizara el retiro, si presionas 2 se canmcelara y te indicara que tu saldo sigue siendo el mismo, ademas de regresarte al menu principal, tambien la cantidad que ingreses debe ser positiva en caso de que ingreses una cantidad negativa te pedira que ingreses una cantidad nueva y positiva.
+
+### 4. Salir: 
+Al presionar el numero 4 se elegira la opcion de salir, al hacerlo saldras de tu cuentta y regresaras al menú principal del programa.
+
+## Opción 2: "Busqueda" 
+Si presiona el numero 2, se abrira dicha opcion, esta funcion de esta opcion es darte el numero de cuenta de una persona al ingresar su nombre, bsicamente dentro de esta opcion te solicitara que ingreses el nombre del cliente del que deseas obtener el numero de cuenta, al ingresar el nombre, te regresara el numero de cuenta que tiene el cliente.
+
+## Opción 3: "Deposito"
+La funcion de esta opcion es realizar un deposito a alguna cuenta, al  presionar el numero 3, se abrira dicha opcion, dentro de ella te solicitara el numero de cuenta al que deseas realizar el deposito, una vez ingresado el numero de cuenta, te pedira que ingreses la cantidad de dinero que quieres depositar, una vez ingresada la cantidad te dira que el deposito se realizo con exito.
+
+## Opción 4: "Crear cuenta" 
+La funcion de la opcion crear cuenta basicamente te permite crear una cuenta desde 0, en caso de que e cliente no cuente con una, al presionar el numero 4 se abriran esta opcion, dentro de esta te pedira que ingreses el numero de cliente con el que deseas identificarte, una vez ingresado el numero, lo siguiente que te pedira es ingresar tu nombre (ojo solo tu nombre), ya ingresado el nombre lo siguiente que te pedira sera ingresar tu apellido, Ya con esos tres datos ingresados te solicitara un NIP que sera la contraseña de tu cuenta, despues de ingresar tu nip te pedira el saldo inicial de tu cuenta, ya con esto te dira que tu usuario a sido añadido con exito y con esto ya podras acceder a tu cuenta.
+
+## Opción 5: "Salir" 
+Si presionas el numero 5 elegiras la opcion salir, con esto se cerrara por completo el programa, viendo un bonito mensaje de despedida.
+
+## Opción 6: "Guardar" 
+Si presionas el numero 6, elegiras la opcion guardar, con esto almacenara los datos de los clientes y los ultimos movimientos realizados, se guardaran en un archivo de texto.
 # Explicación/descripción 
 Tenenemos una struct de clientes en la cual se almacenaran los siguientesdatos:
 - n_cuenta:Este es un dato de tipo entedero.
