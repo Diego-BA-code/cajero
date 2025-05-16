@@ -52,14 +52,14 @@ Si presionas el numero 5 elegiras la opcion salir, con esto se cerrara por compl
 Si presionas el numero 6, elegiras la opcion guardar, con esto almacenara los datos de los clientes y los ultimos movimientos realizados, se guardaran en un archivo de texto.
 # Explicación/descripción 
 Tenenemos una struct de clientes en la cual se almacenaran los siguientesdatos:
-- n_cuenta:Este es un dato de tipo entedero.
+- n_cuenta:Este es un dato de tipo entero,se almacena la cuenta del usuario.
 - nombre: Es un tipo de dato de carácter el cual tiene 40 caracteres para almacenar el nombre del usuario.
 - apellido:Es un tipo de dato de carácter el cual tiene 40 caracteres para almacenar el apellido del usuario.
 - nip:Es un tipo de dato entero en el cual se almacena el nip del usuario.
 - saldo: Es un tipo de dato flotante, se almacena la cantidad de dinero que tiene enl usuario en su cuenta.
 - bloqueada: Es un tipo de dato entero, se almacena los datos y si en el bloqueo es un -2, se bloquea la cuenta.
 - intentos: Es un tipo de datos entero, se almacena los intentos que usuario hace para acceder a su cuenta, con base a este dato y al dato bloqueo se valida el nip.
-- movimientos: Esun tipo de dato entero, tiene un capacidad de 10 movimientos. Con esta se veran reflejados los movimientos realizados.
+- movimientos: Es un tipo de dato entero, tiene un capacidad de 10 movimientos. Con esta se veran reflejados los movimientos realizados.
   
 ## Descripción
 ### Funciones
