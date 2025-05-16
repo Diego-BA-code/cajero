@@ -285,7 +285,7 @@ void realizar_deposito_sc(struct cliente *clientes, int n_cuenta)
 void realizar_retiro(struct cliente *clientes, int indice)
 {
     float num;
-    int v;
+    int v, continuar;
 
     printf("========= RETIROS ==========\n");
     printf("Ingrese la cantidad que desea retirar: \n");
