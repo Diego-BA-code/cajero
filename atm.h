@@ -301,7 +301,16 @@ void realizar_retiro(struct cliente *clientes, int indice)
         scanf("%f", &num);
         v = validar(num);
     }
+    printf("Esta seguro que desea realizar el retiro?\n");
+        printf("1.-Si\n");
+        printf("2.-No\n");
+        scanf("%d",&continuar);
 
+        if(continuar !=1)
+        {
+            printf("Operacion cancelada\n");
+
+        }
     if (num > clientes[indice].saldo)
     {
         printf("No tienes suficiente saldo, por favor ingresa una cantidad válida:\n");
